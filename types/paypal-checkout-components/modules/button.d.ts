@@ -65,5 +65,5 @@ export interface ButtonsRenderer {
         onInit?: (data: AuthorizationData, actions: object) => void;
         onClick?: () => void;
     }): ButtonsRenderer;
-    render(selector: string): void;
+    render(selectorOrElement: string | HTMLElement): void;
 }
